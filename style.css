@@ -1,0 +1,10 @@
+.bg-secondary-50 {
+    background-color: #d0cbcb;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.nav-custom{
+    width: 100%;
+}
