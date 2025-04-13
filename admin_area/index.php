@@ -106,8 +106,8 @@
                             include('insert_category.php');
                         } else if (isset($_GET['insert_brand'])) {
                             include('insert_brand.php');
-                        }else if (isset($_GET['remove_product'])) {
-                           include('remove_product.php');
+                        } else if (isset($_GET['remove_product'])) {
+                            include('remove_product.php');
                         } else if (isset($_GET['view_category'])) {
                             include('view_category.php');
                         } else if (isset($_GET['insert_product'])) {
@@ -118,7 +118,7 @@
                             include('view_brand.php');
                         } else if (isset($_GET['edit_product'])) {
                             include('edit_product.php');
-                        }else if (isset($_GET['incomplete_orders'])) {
+                        } else if (isset($_GET['incomplete_orders'])) {
                             include('incomplete_orders.php');
                         } else if (isset($_GET['user_list'])) {
                             include('user_list.php');
