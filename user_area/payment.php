@@ -4,10 +4,10 @@ include('include/verify.php');
 <?php
  $amount = $_POST['total'];
  require_once 'phpqrcode/qrlib.php';
- $phonepe_upi = "9692439651@ybl";
+ $phonepe_upi = "your upi id";
 
  // Create UPI URL for Payment
- $upi_url = "upi://pay?pa=$phonepe_upi&pn=Praveen&am=$amount&cu=INR";
+ $upi_url = "upi url";
  $file_name = 'payment_qr.png';
 
  QRcode::png($upi_url, $file_name, QR_ECLEVEL_L, 10);
